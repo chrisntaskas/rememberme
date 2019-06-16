@@ -35,7 +35,7 @@ h1 {
 
 
 /*
- * Styles for the deck of cards
+ * deck card styles
  */
 
 
@@ -106,7 +106,7 @@ h1 {
 
 
 /*
- * Styles for the Score Panel
+ * scoreboard style
  */
 
 
@@ -143,7 +143,7 @@ h1 {
 
 
 /*
- * Styles for congratulations modal
+ * congratulations modal style
  */
 
 
@@ -312,7 +312,7 @@ h1 {
 }
 
 
-/* For Tablets and larger screens
+/* tablets
 ****************/
 
 @media (min-width: 768px) {
