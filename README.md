@@ -40,9 +40,9 @@ Responsiveness has been tested through google chrome inspect and various devices
 ## Deployment
 
 Initially written in aws cloud9 and since this platform is undergoing a transition and was problematic running the project, the final touches have been written in atom utilizing live server package and later deployed on github pages.
-See the live version [HERE]()
+See the live version [HERE](https://chrisntaskas.github.io/rememberme/)
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+Should you want to run the code locally, please get a copy from [HERE](https://github.com/chrisntaskas/rememberme)
 
 
 ## Credits
