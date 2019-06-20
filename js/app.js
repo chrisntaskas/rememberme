@@ -92,7 +92,7 @@ var displayCard = function (){
 };
 
 
-// @description add opened cards to OpenedCards list and check if cards are match or not
+// open OpenedCards list and check if cards are match or not
 function cardOpen() {
     openedCards.push(this);
     var len = openedCards.length;
@@ -107,7 +107,7 @@ function cardOpen() {
 };
 
 
-// @description when cards match
+//action when cards match
 function matched(){
     openedCards[0].classList.add("match", "disabled");
     openedCards[1].classList.add("match", "disabled");
@@ -117,7 +117,7 @@ function matched(){
 }
 
 
-// description when cards don't match
+// action when cards don't match
 function unmatched(){
     openedCards[0].classList.add("unmatched");
     openedCards[1].classList.add("unmatched");
@@ -131,7 +131,7 @@ function unmatched(){
 }
 
 
-// @description disable cards temporarily
+//  disable cards temporarily
 function disable(){
     Array.prototype.filter.call(cards, function(card){
         card.classList.add('disabled');
@@ -139,7 +139,7 @@ function disable(){
 }
 
 
-// @description enable cards and disable matched cards
+// enable cards and disable matched cards
 function enable(){
     Array.prototype.filter.call(cards, function(card){
         card.classList.remove('disabled');
@@ -150,7 +150,7 @@ function enable(){
 }
 
 
-// @description count player's moves
+//  count player's moves
 function moveCounter(){
     moves++;
     counter.innerHTML = moves;
@@ -179,7 +179,7 @@ function moveCounter(){
 }
 
 
-// @description game timer
+//  game timer
 var second = 0, minute = 0; hour = 0;
 var timer = document.querySelector(".timer");
 var interval;
@@ -199,7 +199,7 @@ function startTimer(){
 }
 
 
-// @description congratulations when all cards match, show modal and moves, time and rating
+//  congratulations when all cards match, show modal and moves, time and rating
 function congratulations(){
     if (matchedCard.length == 16){
         clearInterval(interval);
@@ -222,7 +222,7 @@ function congratulations(){
 }
 
 
-// @description close icon on modal
+// n close icon on modal
 function closeModal(){
     closeicon.addEventListener("click", function(e){
         modal.classList.remove("show");
@@ -231,7 +231,7 @@ function closeModal(){
 }
 
 
-// @desciption for user to play Again 
+//  for user to play Again 
 function playAgain(){
     modal.classList.remove("show");
     startGame();
