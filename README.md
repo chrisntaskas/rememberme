@@ -51,7 +51,7 @@ The code has been validated using:
 
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
--[Javascript validator](https://www.piliapp.com/javascript-validator/)
+- [Javascript validator](https://www.piliapp.com/javascript-validator/)
 
 The code has been tested through HTML, CSS and JS validators producing possitive results. 
 Responsiveness has been tested through google chrome inspect and various devices such as:
